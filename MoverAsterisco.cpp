@@ -40,30 +40,35 @@ class MoverAsterisco : private LIB {
       cprintf("|");
 
     	for(int mov=0;mov!=100;mov++){
-   	gotoxy(xb,yb);
-      cprintf(" ");
-   	cprintf("*");
-      delay(100);
-   	gotoxy(xb,yb);
-   	cprintf(" ");
-
-      switch (dir){
-      	case 1: xb++;  yb--;
-         break;
-         case 2: xb++; yb++;
-         break;
-         case 3: xb--; yb++;
-         break;
-         case 4: xb--; yb--;
-         break;
-      }
+	   	gotoxy(xb,yb);
+	      	cprintf(" ");
+	   	cprintf("*");
+	      	delay(100);
+	if(){
+			
+	}
+	if(tecla != null){
+		Moveri mover = new Moveri();
+		
+		+
+	}
+	switch (dir){
+	      	case 1: xb++;  yb--;
+	         break;
+	         case 2: xb++; yb++;
+	         break;
+	         case 3: xb--; yb++;
+	         break;
+	         case 4: xb--; yb--;
+	         break;
+	      }
       }
 
    }
    public int comdireccion(dir){
    }
 
-   void moveri{
+   public int moveri{
    	do{
       	// identifica si se presiono una telca
       	if (kbhit()){
